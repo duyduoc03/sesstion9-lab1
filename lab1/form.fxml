@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sesstion9.lab1.Controller">
+   <children>
+      <Button alignment="CENTER" layoutX="90.0" layoutY="173.0" mnemonicParsing="false" onAction="#submit" prefHeight="39.0" prefWidth="186.0" text="Add">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text fx:id="result" layoutX="355.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Information" wrappingWidth="129.724609375" />
+      <TextField fx:id="Ten" layoutX="90.0" layoutY="49.0" text="Ten" />
+      <TextField fx:id="SDT" layoutX="90.0" layoutY="105.0" text="SDT" />
+      <Text fx:id="errMsg" fill="#f21515" layoutX="34.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Error" visible="false" />
+   </children>
+</Pane>
